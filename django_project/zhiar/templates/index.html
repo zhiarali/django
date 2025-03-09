@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhiar Ali - Web Assignment</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #bbb;
+        }
+        .box {
+            margin: auto;
+            padding: 20px;
+            width: 50%;
+            border: 2px solid #444;
+            border-radius: 10px;
+            background: #1e1e1e;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #cc5500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Hello, I'm Zhiar Ali</h1>
+        <p>Welcome to my web assignment. This is a simple webpage showcasing a different design.</p>
+        <p>I love web development and creating new things!</p>
+        <a href="https://www.djangoproject.com/" class="btn">Learn Django</a>
+    </div>
+
+</body>
+</html>
